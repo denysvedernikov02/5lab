@@ -2,14 +2,18 @@
 
 int main() {
 
-    student A("vasya", 2, 12, 7, 9);
-	student B("anton", 10, 9, 12, 9);
-	A.getInfo();
+    student A("Anton", "Pankiv", 8, 8, 7, 10);
+	student B("Maksym", "Martin", 10, 9, 12, 9);
+	student C("Illya", "Shevchenko", 11, 12, 10, 12);
+
 	A.avr();
-	B.getInfo();
 	B.avr();
+	C.avr();
+
 	group ir;
 	ir.addStudent(A);
 	ir.addStudent(B);
+	ir.addStudent(C);
+	ir.rait();
 	return 0;
 }
