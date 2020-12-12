@@ -5,22 +5,22 @@ Student::Student() {
 	name = " ";
 	surname = " ";
 	for (int i = 0; i < 4; i++) {
-		marks[i] = 0;
+		mark[i] = 0;
 	}
 }
 
 Student::Student(string a, string b, int number0, int number1, int number2, int number3) {
 	name = a;
 	surname = b;
-	marks[0] = number0;
-	marks[1] = number1;
-	marks[2] = number2;
-	marks[3] = number3;
+	mark[0] = number0;
+	mark[1] = number1;
+	mark[2] = number2;
+	mark[3] = number3;
 }
 
 void Student::avr() {
     float avr1;
-	avr1 = (marks[0] + marks[1] + marks[2] + marks[3]) / 4;
+	avr1 = (mark[0] + mark[1] + mark[2] + mark[3]) / 4;
 	x = avr1;
 }
 
@@ -28,7 +28,7 @@ void Student::getInfo() {
 	cout << name << endl;
 	cout << surname << endl;
 	for (int i = 0; i< 4; i++) {
-		cout << marks[i] << endl;
+		cout << mark[i] << endl;
 	}
 	cout << endl;
 }

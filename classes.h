@@ -8,7 +8,7 @@ class Student {
 public:
 	string name;
 	string surname;
-	int marks[4];
+	int mark[4];
 	float x;
 	void getInfo();
 	void avr();
