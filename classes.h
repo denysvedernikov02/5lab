@@ -17,7 +17,7 @@ public:
 	~Student();
 };
 
-class group{
+class Group{
 private:
 	static const int count = 3;
 public:

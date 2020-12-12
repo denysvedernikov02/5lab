@@ -10,7 +10,7 @@ int main() {
 	B.avr();
 	C.avr();
 
-	group ir;
+	Group ir;
 	ir.addStudent(A);
 	ir.addStudent(B);
 	ir.addStudent(C);

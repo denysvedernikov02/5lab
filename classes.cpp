@@ -33,13 +33,13 @@ void Student::getInfo() {
 	cout << endl;
 }
 
-void group::addStudent(Student &student) {
+void Group::addStudent(Student &student) {
 	this->group_list[k] = &student;
 	k = k + 1;
 }
 
 
-void group::Rait() {
+void Group::Rait() {
 	for (int startIndex = 0; startIndex < count - 1; ++startIndex)
 	{
 		int largestIndex = startIndex;
