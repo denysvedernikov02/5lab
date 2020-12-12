@@ -1,11 +1,10 @@
 #pragma once
 #include <iostream>
 #include <string.h>
-#include <algorithm>
 
 using namespace std;
 
-class student {
+class Student {
 public:
 	string name;
 	string surname;
@@ -13,9 +12,9 @@ public:
 	float x;
 	void getInfo();
 	void avr();
-	student();
-	student(string a, string b, int c, int d, int e, int f);
-	~student();
+	Student();
+	Student(string a, string b, int number0, int number1, int number2, int number3);
+	~Student();
 };
 
 class group{
@@ -23,7 +22,7 @@ private:
 	static const int count = 3;
 public:
 	int k = 0;
-	student* group_list[count];
-	void addStudent(student& student);
-	void rait();
+	Student* group_list[count];
+	void addStudent(Student& student);
+	void Rait();
 };
